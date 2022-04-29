@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Roboto-Light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Bariol-Light;
+    src: url(fonts/Bariol-Light.ttf);
+}
+
+@font-face {
+    font-family: Bariol-Regular;
+    src: url(fonts/Bariol-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bariol-Bold;
+    src: url(fonts/Bariol-Bold.ttf);
+}
+
+@font-face {
+    font-family: Futura-Bold;
+    src: url(fonts/Futura-Bold.otf);
+}
+
+@font-face {
+    font-family: Futura-Extra-Bold;
+    src: url(fonts/Futura-Extra-Bold.otf);
+}
