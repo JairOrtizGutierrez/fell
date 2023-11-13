@@ -1,239 +1,205 @@
-header .header-responsive-info .menu {
-    z-index: 1;
-    padding: 60px;
+header .background {
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 11;
+	opacity: 0;
+	visibility: hidden;
 }
 
-header .header-responsive-info .menu .web-white-logo {
-    opacity: 0;
-    visibility: hidden;
+header .background .links {
+	-webkit-transform: translateY(20px);
+	transform: translateY(20px);
 }
 
-header .header-responsive-info .background {
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    opacity: 0;
-    visibility: hidden;
+header .background .links li {
+	opacity: 0;
+	visibility: hidden;
+	list-style: none;
 }
 
-header .header-responsive-info .background .links {
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
+header .background .links a {
+	color: #000;
+	text-decoration: none;
+	font-family: Montserrat, sans-serif;
+	letter-spacing: 2px;
 }
 
-header .header-responsive-info .background .links li {
-    opacity: 0;
-    visibility: hidden;
-    list-style: none;
+header .menu-button {
+	transform: translateX(-50%);
+	left: 50%;
+	z-index: 12;
 }
 
-header .header-responsive-info .background .links a {
-    color: #000;
-    text-decoration: none;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 2px;
+header .header-info {
+	transform: translateX(-50%);
+	left: 50%;
+	z-index: 10;
 }
-
-header .header-info > div {
-    top: 0;
-    padding: 60px 0px;
-}
-
-header .header-info > div > div > a {
-    font-family: Futura-Extra-Bold;
-    z-index: 1;
-}
-
-header .header-info > div > div > a:nth-child(1) {
-    color: #000;
-}
-
-header .header-info > div > div > a:nth-child(3) {
-    color: #fff;
-}
-
-header .header-info img {
-    z-index: 1;
-}
-
-
 
 nav {
-    height: 100vh;
-    font-family: Futura-Extra-Bold;
+	height: 100vh;
+	font-family: Futura-Extra-Bold;
 }
 
 nav .carousel-info > div:last-child,
 nav .controls > div {
-    top: 0;
-    padding: 60px 0px;
+	top: 0;
+	padding: 60px 0px;
 }
 
 nav .carousel-info:nth-child(1) .shadow-border {
-    -webkit-box-shadow: -10px 0px 35px -20px rgba(0,0,0,0.75);
-    box-shadow: -10px 0px 35px -20px rgba(0,0,0,0.75);
+	-webkit-box-shadow: -10px 0px 35px -20px rgba(0, 0, 0, 0.75);
+	box-shadow: -10px 0px 35px -20px rgba(0, 0, 0, 0.75);
 }
 
 nav .carousel-info:nth-child(2) .shadow-border {
-    -webkit-box-shadow: 10px 0px 35px -20px rgba(0,0,0,0.75);
-    box-shadow: 10px 0px 35px -20px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 10px 0px 35px -20px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 0px 35px -20px rgba(0, 0, 0, 0.75);
 }
 
 nav .controls span {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 nav .carousel {
-    height: 500%;
+	height: 500%;
 }
 
 nav .item {
-    height: calc(100%/5);
+	height: calc(100% / 5);
 }
 
 nav .responsive-carousel-info > div:last-child,
 nav .responsive-controls > div {
-    top: 0;
-    padding: 60px;
+	top: 0;
+	padding: 60px;
 }
 
 nav .responsive-carousel-info .shadow-border {
-    -webkit-box-shadow: 0px 0px 35px -10px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 35px -10px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 0px 35px -10px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 35px -10px rgba(0, 0, 0, 0.75);
 }
 
 nav .responsive-controls span {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 nav .responsive-carousel {
-    height: 1000%;
+	height: 1000%;
 }
 
 nav .responsive-item {
-    height: calc(100%/10);
+	height: calc(100% / 10);
 }
 
 nav .responsive-black-button {
-    background-color: #000;
-    color: #fff;
+	background-color: #000;
+	color: #fff;
 }
 
 nav .responsive-white-button {
-    background-color: #fff;
-    color: #000;
+	background-color: #fff;
+	color: #000;
 }
 
-
-
 nav .first-carousel-image-2 {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(27,26,27,1)), color-stop(50%, rgba(39,38,39,1)), to(rgba(27,26,27,1)));
-    background: linear-gradient(0deg, rgba(27,26,27,1) 0%, rgba(39,38,39,1) 50%, rgba(27,26,27,1) 100%);
+	background: -webkit-gradient(linear, left bottom, left top, from(rgba(27, 26, 27, 1)), color-stop(50%, rgba(39, 38, 39, 1)), to(rgba(27, 26, 27, 1)));
+	background: linear-gradient(0deg, rgba(27, 26, 27, 1) 0%, rgba(39, 38, 39, 1) 50%, rgba(27, 26, 27, 1) 100%);
 }
 
 nav .second-carousel-image-2 {
-    background-image: url(../img/web_fell_image_4.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url(../img/web_fell_image_4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 nav .third-carousel-image-2 {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(232,232,232,1)), color-stop(50%, rgba(245,244,246,1)), to(rgba(232,232,232,1)));
-    background: linear-gradient(0deg, rgba(232,232,232,1) 0%, rgba(245,244,246,1) 50%, rgba(232,232,232,1) 100%);
+	background: -webkit-gradient(linear, left bottom, left top, from(rgba(232, 232, 232, 1)), color-stop(50%, rgba(245, 244, 246, 1)), to(rgba(232, 232, 232, 1)));
+	background: linear-gradient(0deg, rgba(232, 232, 232, 1) 0%, rgba(245, 244, 246, 1) 50%, rgba(232, 232, 232, 1) 100%);
 }
 
 nav .fourth-carousel-image-2 {
-    background-image: url(../img/web_fell_image_3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url(../img/web_fell_image_3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-
-
-
-
 nav .first-carousel-image-1 {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(187,190,196,1)), color-stop(50%, rgba(207,210,215,1)), to(rgba(187,190,196,1)));
-    background: linear-gradient(0deg, rgba(187,190,196,1) 0%, rgba(207,210,215,1) 50%, rgba(187,190,196,1) 100%);
+	background: -webkit-gradient(linear, left bottom, left top, from(rgba(187, 190, 196, 1)), color-stop(50%, rgba(207, 210, 215, 1)), to(rgba(187, 190, 196, 1)));
+	background: linear-gradient(0deg, rgba(187, 190, 196, 1) 0%, rgba(207, 210, 215, 1) 50%, rgba(187, 190, 196, 1) 100%);
 }
 
 nav .second-carousel-image-3 {
-    background-image: url(../img/web_fell_image_1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url(../img/web_fell_image_1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 nav .third-carousel-image-3 {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(223,223,223,1)), color-stop(50%, rgba(210,210,210,1)), to(rgba(223,223,223,1)));
-    background: linear-gradient(0deg, rgba(223,223,223,1) 0%, rgba(210,210,210,1) 50%, rgba(223,223,223,1) 100%);
+	background: -webkit-gradient(linear, left bottom, left top, from(rgba(223, 223, 223, 1)), color-stop(50%, rgba(210, 210, 210, 1)), to(rgba(223, 223, 223, 1)));
+	background: linear-gradient(0deg, rgba(223, 223, 223, 1) 0%, rgba(210, 210, 210, 1) 50%, rgba(223, 223, 223, 1) 100%);
 }
 
 nav .fourth-carousel-image-1 {
-    background-image: url(../img/web_fell_image_2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url(../img/web_fell_image_2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-
-
-
 nav .first-carousel-image-3 {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(161,154,156,1)), color-stop(50%, rgba(189,181,183,1)), to(rgba(161,154,156,1)));
-    background: linear-gradient(0deg, rgba(161,154,156,1) 0%, rgba(189,181,183,1) 50%, rgba(161,154,156,1) 100%);
+	background: -webkit-gradient(linear, left bottom, left top, from(rgba(161, 154, 156, 1)), color-stop(50%, rgba(189, 181, 183, 1)), to(rgba(161, 154, 156, 1)));
+	background: linear-gradient(0deg, rgba(161, 154, 156, 1) 0%, rgba(189, 181, 183, 1) 50%, rgba(161, 154, 156, 1) 100%);
 }
 
 nav .second-carousel-image-1 {
-    background-image: url(../img/web_fell_image_5.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url(../img/web_fell_image_5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 nav .third-carousel-image-1 {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(208,198,200,1)), color-stop(50%, rgba(231,222,225,1)), to(rgba(208,198,200,1)));
-    background: linear-gradient(0deg, rgba(208,198,200,1) 0%, rgba(231,222,225,1) 50%, rgba(208,198,200,1) 100%);
+	background: -webkit-gradient(linear, left bottom, left top, from(rgba(208, 198, 200, 1)), color-stop(50%, rgba(231, 222, 225, 1)), to(rgba(208, 198, 200, 1)));
+	background: linear-gradient(0deg, rgba(208, 198, 200, 1) 0%, rgba(231, 222, 225, 1) 50%, rgba(208, 198, 200, 1) 100%);
 }
 
 nav .fourth-carousel-image-3 {
-    background-image: url(../img/web_fell_image_6.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url(../img/web_fell_image_6.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-
-
-
 nav .white {
-    background-color: #fff;
-    color: #000;
+	background-color: #fff;
+	color: #000;
 }
 
 nav .white span:nth-child(2) {
-    font-size: 80px;
+	font-size: 80px;
 }
 
 nav .black {
-    background-color: #000;
-    color: #fff;
+	background-color: #000;
+	color: #fff;
 }
 
 nav .black span:nth-child(2) {
-    font-size: 80px;
+	font-size: 80px;
 }
 
 section {
-    color: #000;
+	color: #000;
 }
 
 article .price {
-    letter-spacing: 1px;
-    font-size: 14px;
+	letter-spacing: 1px;
+	font-size: 14px;
 }
 
 /*article .latest > div:first-child > div > span,
@@ -252,105 +218,106 @@ article .collection > div:first-child > div > span:last-child {
 article .latest > div:first-child > div > span,
 article .collection > div:first-child > div > span,
 article .instagram > div:first-child > span {
-    letter-spacing: 3px;
+	letter-spacing: 3px;
 }
 
 article .latest > div:first-child > div > span:last-child,
 article .collection > div:first-child > div > span:last-child {
-    background-color: #000;
-    height: 1px;
-    width: 0%;
+	background-color: #000;
+	height: 1px;
+	width: 0%;
 }
 
 article .latest-image {
-    border: 1px solid #bfbfbf;
+	border: 1px solid #bfbfbf;
 }
 
 article .about-us > div:last-child > span:nth-child(1),
 article .about-us > div:last-child > span:nth-child(2) {
-    opacity: 0;
+	opacity: 0;
 }
 
 article .about-us > div:last-child > span:first-child {
-    font-size: 50px;
-    line-height: 60px;
+	font-size: 50px;
+	line-height: 60px;
 }
 
 article .about-us > div:last-child > span:last-child {
-    background-color: #000;
-    height: 1px;
-    width: 0%;
+	background-color: #000;
+	height: 1px;
+	width: 0%;
 }
 
 article .instagram > div:first-child > span:last-child {
-    letter-spacing: 1px;
+	letter-spacing: 1px;
 }
 
 article .instagram > div:first-child > div {
-    width: 40%;
-    height: 1px;
+	width: 40%;
+	height: 1px;
 }
 
 article .instagram > div:first-child > div > span {
-    background-color: #000;
-    height: 1px;
-    left: 50%;
-    width: 0%;
+	background-color: #000;
+	height: 1px;
+	left: 50%;
+	width: 0%;
 }
 
 /* SVG */
 
 .ham {
-    cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-transition: -webkit-transform 400ms;
-    transition: -webkit-transform 400ms;
-    transition: transform 400ms;
-    transition: transform 400ms, -webkit-transform 400ms;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-transition: -webkit-transform 400ms;
+	transition: -webkit-transform 400ms;
+	transition: transform 400ms;
+	transition: transform 400ms, -webkit-transform 400ms;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .line {
-    fill:none;
-    -webkit-transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-    stroke:#000;
-    stroke-width:4.5;
-    stroke-linecap:round;
+	fill: none;
+	-webkit-transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+	transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+	stroke-width: 4.5;
+	stroke-linecap: round;
 }
 
 .ham6 {
-    -webkit-transform: scale(0.8);
-    transform: scale(0.8);
-    margin: 8px;
-    z-index: 3;
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+	z-index: 3;
 }
 
 .ham6 .top {
-    stroke-dasharray: 40 172;
+	stroke-dasharray: 40 172;
 }
 
 .ham6 .middle {
-    stroke-dasharray: 40 111;
+	stroke-dasharray: 40 111;
 }
 
 .ham6 .bottom {
-    stroke-dasharray: 40 172;
+	stroke-dasharray: 40 172;
 }
 
 .ham6.active .top {
-    stroke-dashoffset: -132px;
+	stroke-dashoffset: -132px;
+	stroke: #000;
 }
 
 .ham6.active .middle {
-    stroke-dashoffset: -71px;
+	stroke-dashoffset: -71px;
+	stroke: #000;
 }
 
 .ham6.active .bottom {
-    stroke-dashoffset: -132px;
+	stroke-dashoffset: -132px;
+	stroke: #000;
 }
 
 /* SVG */
@@ -358,152 +325,132 @@ article .instagram > div:first-child > div > span {
 /*-- responsive --*/
 
 @media screen and (max-width: 1199px) {
+	article .about-us > div:last-child > span:first-child {
+		font-size: 40px;
+		line-height: 50px;
+	}
 
-    article .about-us > div:last-child > span:first-child {
-        font-size: 40px;
-        line-height: 50px;
-    }
-
-    article .instagram > div:first-child > div {
-        width: 50%;
-    }
-
+	article .instagram > div:first-child > div {
+		width: 50%;
+	}
 }
 
 @media screen and (max-width: 991px) {
+	header .header-info img {
+		width: 100px;
+	}
 
-    header .header-responsive-info img {
-        width: 100px;
-    }
+	article .about-us > div:last-child > span:first-child {
+		font-size: 30px;
+		line-height: 40px;
+	}
 
-    article .about-us > div:last-child > span:first-child {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    article .instagram > div:first-child > div {
-        width: 60%;
-    }
-
+	article .instagram > div:first-child > div {
+		width: 60%;
+	}
 }
 
 @media screen and (max-width: 767px) {
+	header .header-info img {
+		width: 90px;
+	}
 
-    header .header-responsive-info .menu {
-        padding: 45px;
-    }
+	nav .black span,
+	nav .white span {
+		font-size: 15px;
+	}
 
-    header .header-responsive-info img {
-        width: 90px;
-    }
+	nav .black span:nth-child(2),
+	nav .white span:nth-child(2) {
+		font-size: 60px;
+	}
 
-    nav .black span,
-    nav .white span {
-        font-size: 15px;
-    }
+	nav .responsive-carousel-info > div:last-child,
+	nav .responsive-controls > div {
+		padding: 45px;
+	}
 
-    nav .black span:nth-child(2),
-    nav .white span:nth-child(2) {
-        font-size: 60px;
-    }
+	nav .responsive-controls > span {
+		font-size: 15px;
+	}
 
-    nav .responsive-carousel-info > div:last-child,
-    nav .responsive-controls > div {
-        padding: 45px;
-    }
+	article .about-us > div:last-child > span:first-child {
+		font-size: 25px;
+		line-height: 35px;
+	}
 
-    nav .responsive-controls > span {
-        font-size: 15px;
-    }
-
-    article .about-us > div:last-child > span:first-child {
-        font-size: 25px;
-        line-height: 35px;
-    }
-
-    article .instagram > div:first-child > div {
-        width: 80%;
-    }
-
+	article .instagram > div:first-child > div {
+		width: 80%;
+	}
 }
 
 @media screen and (max-width: 575px) {
+	header .header-info img {
+		width: 80px;
+	}
 
-    header .header-responsive-info .menu {
-        padding: 30px;
-    }
+	nav .black span,
+	nav .white span {
+		font-size: 14px;
+	}
 
-    header .header-responsive-info img {
-        width: 80px;
-    }
+	nav .black span:nth-child(2),
+	nav .white span:nth-child(2) {
+		font-size: 40px;
+	}
 
-    nav .black span,
-    nav .white span {
-        font-size: 14px;
-    }
+	nav .responsive-carousel-info > div:last-child,
+	nav .responsive-controls > div {
+		padding: 30px;
+	}
 
-    nav .black span:nth-child(2),
-    nav .white span:nth-child(2) {
-        font-size: 40px;
-    }
+	nav .responsive-controls > span {
+		font-size: 14px;
+	}
 
-    nav .responsive-carousel-info > div:last-child,
-    nav .responsive-controls > div {
-        padding: 30px;
-    }
+	article .latest > div:first-child > div > div > div > span:first-child {
+		font-size: 14px;
+	}
 
-    nav .responsive-controls > span {
-        font-size: 14px;
-    }
+	article .about-us > div:last-child > span:first-child {
+		font-size: 20px;
+		line-height: 30px;
+	}
 
-    article .latest > div:first-child > div > div > div > span:first-child {
-        font-size: 14px;
-    }
-
-    article .about-us > div:last-child > span:first-child {
-        font-size: 20px;
-        line-height: 30px;
-    }
-
-    article .instagram > div:first-child > div {
-        width: 90%;
-    }
-
+	article .instagram > div:first-child > div {
+		width: 90%;
+	}
 }
 
-
-
-
-
 article .instagram-image img {
-    -o-object-fit: cover;
-    object-fit: cover;
+	-o-object-fit: cover;
+	object-fit: cover;
 }
 
 article .instagram-image a {
-    top: 0px;
-    -webkit-transition: 0.5s ease all;
-    transition: 0.5s ease all;
-    font-size: 20px;
+	top: 0px;
+	-webkit-transition: 0.5s ease all;
+	transition: 0.5s ease all;
+	font-size: 20px;
 }
 
 article .instagram-image a:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 article .instagram-image a > i {
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: 0.5s ease all;
-    transition: 0.5s ease all;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: 0.5s ease all;
+	transition: 0.5s ease all;
 }
 
 article .instagram-image a:hover > i {
-    opacity: 1;
-    visibility: visible;
+	opacity: 1;
+	visibility: visible;
 }
 
 article .instagram-image a > i > span {
-    font-family: Futura-Bold;
-    font-size: 18px;
+	font-family: Futura-Bold;
+	font-size: 18px;
 }
